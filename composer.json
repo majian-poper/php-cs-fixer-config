@@ -1,0 +1,28 @@
+{
+    "name": "poper/php-cs-fixer-config",
+    "description": "PHP CS Fixer config for POPER PHP projects",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jian.ma",
+            "email": "jian.ma@poper.co"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Poper\\PhpCsFixer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "friendsofphp/php-cs-fixer": "^2.18"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
